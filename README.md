@@ -1,2 +1,2 @@
 # github-demo
-A repo to ork on git and related change
+A repo to work on git and related change
