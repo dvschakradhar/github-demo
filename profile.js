@@ -1,2 +1,2 @@
 console.log("Welcome to github");
-console.log("test git")
+console.log("test git");
