@@ -1,0 +1,117 @@
+/* first page */
+.firstPage {
+    width: 20%;
+    margin: 30vh auto;
+}
+
+.firstPage>h1 {
+    color: rgb(225, 118, 118);
+    font-size: xx-large;
+    font-family: open;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.firstPage>img {
+    width: 30%;
+    margin: auto;
+}
+
+#enter-btn {
+    margin-left: 40px;
+    width: 25%;
+    height: 4vh;
+    border: none;
+}
+
+#enter-btn:hover {
+
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* Pages */
+.instaBar {
+    width: 100%;
+    height: 12vh;
+    border-bottom: 2px solid black;
+    box-shadow: 5px 5px 8px rgb(128, 126, 134);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instaBar>h1 {
+    color: rgb(225, 118, 118);
+    font-size: xx-large;
+    font-family: open;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.logos {
+    width: 98px;
+    height: 88px;
+}
+
+/* for slides */
+
+.slide {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+    height: 56vh;
+    margin: 20px auto;
+}
+
+.slide>h1 {
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location>h5 {
+    margin-top: -18px;
+    padding-left: 20px;
+}
+
+.location>p {
+    font-size: xx-large;
+    margin-top: -50px;
+    padding-right: 10px;
+}
+
+.img {
+    width: 100%;
+    height: 30vh
+}
+
+.likeShare {
+    display: flex;
+}
+
+.likeShare>svg {
+    margin: 15px
+}
+
+.likeShare>p {
+    margin-left: 400px;
+    justify-self: flex-end;
+
+}
+
+.likes {
+    margin-top: -12px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.description {
+    margin-top: -8px;
+    padding-left: 20px;
+}
