@@ -1,0 +1,114 @@
+#logo {
+    width: 10vw;
+    display: block;
+    margin: 35vh auto 3vh;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+#logo-small {
+    height: 75px;
+    width: 140px;
+    float: left;
+    margin: 2.2vh 0 3vh 15vw;
+    /* mix-blend-mode:color; */
+}
+
+#enter-btn{
+    margin: 20px auto;
+    display: block;
+    /* margin-top: 20px; */
+    border: 0.5px solid #0d6efd;
+    color: #0d6efd;
+    background-color: inherit;
+    height: 35px;
+    border-radius: 4px;
+    width: 65px;
+    text-decoration-style: none;   
+}
+
+#enter-btn:hover{
+    border: none;
+    color: white;
+    background-color: #0d6efd;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 4vh 15vw 3vh 0;
+
+}
+
+#landing-nav {
+    height: 13vh;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.card {
+    margin: 2vh auto;
+    width: 450px;
+    height: 450px;
+    border: 1px solid grey;
+    position: relative;
+    /* justify-self: ; */
+}
+
+h1,
+h4 {
+    /* float: left; */
+    text-align: left;
+    margin-left: 10px;
+}
+
+h4 {
+    color: gray;
+}
+
+.post-img {
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid; */
+}
+
+.menu-btn {
+    position: absolute;
+    top: -10px;
+    left: 390px;
+}
+
+.send {
+    position: absolute;
+    top: 295px;
+    left: 66px;
+}
+
+.like {
+    position: absolute;
+    /* bottom: 66px; */
+    top: 295px;
+    left: 10px;
+}
+
+.date,.likes{
+    text-align: right;
+    margin: 15px 10px 10px 0;
+}
+
+.likes{
+    text-align: left;
+    margin-left: 10px;
+    color: grey;
+}
+
+.desc{
+    margin-left: 10px;
+}
+
+.menu-btn,.like,.send{
+    width: 30px;
+}
